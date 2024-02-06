@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>hh</title>
+    <style>
+
+body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .quiz-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            background-color: #0ceb56;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+        #vid{
+
+            width: 490px; 
+height: 300px;
+margin-left: -70px;
+
+
+
+}
+h2 {
+            margin-bottom: 20px;
+        }
+
+        form {
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        #s1{
+
+            margin-left: 200px;
+            margin-top: 75px;
+           
+        }
+        #s2{
+
+margin-left: 700px;
+margin-top: -527px;
+}
+h3{
+
+ margin: 10px;
+}
+#submi{
+    margin-left: 300px;
+    background-color: #0ceb56;
+    width: 210px;
+    height: 65px;
+
+}
+  </style>
+   
+</head>
+<body>
+
+
+
+    <nav   class="navbar navbar-expand-md navbar-light bg-light ">
+        <div    class="container">
+            <a class="navbar-brand" href="#">
+
+              <img  style="border-radius: 100px;width: 100px;height: 100px;"  src="./img/logo4.png" alt="">
+              <span class="logo-test"> <STrong>ENGLİSH SCHOOL</STrong></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto" >
+              
+              <a class="nav-link  active"id="t2" href="SECME1.HTML">GERİ DÖN</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    
+      <h5> <strong>İngilizce renkleri öğrenme zamanı! İzlediğiniz videodan sonra aşağıdaki soruları yanıtlayarak puan toplayın.</strong></h5>
+      <iframe width="500" height="500" src="img/RAKAM.mp4" frameborder="0" allowfullscreen id="vid"></iframe>
+      
+    <div class="quiz-container">
+        
+        <h2><strong>Sayılar Testi</strong></h2>
+        
+    </div>
+  
+    <form id="quizForm">
+       <div id="s1"> <!-- Question 1 -->
+        <label for="q1"><strong>1. 5 sayısının İngilizcesi nedir?</strong></label>
+        <input type="radio" name="q1" value="a" required> a) <strong>five</strong><br>
+        <input type="radio" name="q1" value="b"> b) <strong>eight</strong><br>
+        <input type="radio" name="q1" value="c"> c) <strong>six</strong><br>
+
+
+        <label for="q1"><strong>2.8 sayısını İngilizce nasıl yazılır?</strong></label>
+        <input type="radio" name="q2" value="a" required> a) <strong>eight</strong><br>
+        <input type="radio" name="q2" value="b"> b) <strong>three</strong><br>
+        <input type="radio" name="q2" value="c"> c) <strong>six</strong><br>
+
+        <label for="q1"><strong>3.Four kelimesinin sayısal karşılığı nedir?</strong></label>
+        <input type="radio" name="q3" value="a" required> a) <strong>4</strong><br>
+        <input type="radio" name="q3" value="b"> b) <strong>5</strong><br>
+        <input type="radio" name="q3" value="c"> c) <strong>9</strong><br>
+
+
+        <label for="q1"><strong>4.Two sayısının hemen sonraki sayı kelimesinin nedir?</strong></label>
+        <input type="radio" name="q4" value="a" required> a) <strong>three</strong><br>
+        <input type="radio" name="q4" value="b"> b) <strong>one</strong><br>
+        <input type="radio" name="q4" value="c"> c) <strong>eight</strong><br>
+
+
+   <label for="q1"><strong>5.6 sayısının İngilizcesi kelimesinin  nedir ?</strong></label>
+        <input type="radio" name="q5" value="a" required> a) <strong>six</strong><br>
+        <input type="radio" name="q5" value="b"> b) <strong>one</strong><br>
+        <input type="radio" name="q5" value="c"> c) <strong>three</strong><br>
+
+    </div>
+    <div id="s2">
+        <label for="q1"><strong>6. one hundred kelimesinin sayısal karşılığı nedir?</strong></label>
+        <input type="radio" name="q6" value="a" required> a) <strong>100</strong><br>
+        <input type="radio" name="q6" value="b"> b) <strong>1000</strong><br>
+        <input type="radio" name="q6" value="c"> c) <strong>10</strong><br>
+
+        <label for="q1"><strong>7. A10 sayısından 9 çıkartırsanız, sonuç kelimesinin nedir ?</strong></label>
+        <input type="radio" name="q7" value="a" required> a) <strong>one</strong><br>
+        <input type="radio" name="q7" value="b"> b) <strong>nine</strong><br>
+        <input type="radio" name="q7" value="c"> c) <strong>four</strong><br>
+
+        <label for="q1"><strong>8. wenty  kelimesinin sayısal karşılığı nedir?</strong></label>
+        <input type="radio" name="q8" value="a" required> a) <strong>20</strong><br>
+        <input type="radio" name="q8" value="b"> b) <strong>30</strong><br>
+        <input type="radio" name="q8" value="c"> c) <strong>41</strong><br>
+
+        <label for="q1"><strong>9.Thirty  kelimesinin sayısal karşılığı nedir?</strong></label>
+        <input type="radio" name="q9" value="a" required> a) <strong>30</strong><br>
+        <input type="radio" name="q9" value="b"> b) <strong>50</strong><br>
+        <input type="radio" name="q9" value="c"> c) <strong>80</strong><br>
+
+
+        <label for="q1"><strong>10.Seven kelimesinin sayısal karşılığı nedir?</strong></label>
+        <input type="radio" name="q10" value="a" required> a) <strong>7 </strong><br>
+        <input type="radio" name="q10" value="b"> b) <strong>8</strong><br>
+        <input type="radio" name="q10" value="c"> c) <strong>9</strong><br>
+
+        <!-- Add more questions with similar structure -->
+
+        <br>
+    </div>
+        <input id="submi"   type="submit" value="Cevapları Sağlayın">
+    </form>
+    <script>
+        document.getElementById('quizForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Define correct answers
+            const correctAnswers = {
+                q1: 'a', // Question 1 - Correct answer is option 'a'
+                q2: 'a', // Question 2 - Correct answer is option 'b'
+                q3: 'a', // Question 3 - Correct answer is option 'c'
+                q4: 'a',
+                q5: 'a',
+                q6: 'a',
+                q7: 'a',
+                q8: 'a',
+                q9: 'a',
+                q10: 'a',
+                // Add correct answers for other questions
+            };
+
+            // Initialize score
+            let score = 0;
+        let incorrectAnswers = [];
+
+        // Check each question's answer
+        for (let i = 1; i <= Object.keys(correctAnswers).length; i++) {
+            const questionId = 'q' + i;
+            const selectedAnswer = document.querySelector(`input[name="${questionId}"]:checked`);
+
+            if (selectedAnswer) {
+                // Check if the selected answer is correct
+                if (selectedAnswer.value === correctAnswers[questionId]) {
+                    score += 10;
+                } else {
+                    // Track incorrect answers
+                    incorrectAnswers.push({
+                        question: questionId,
+                        correctAnswer: correctAnswers[questionId],
+                        userAnswer: selectedAnswer.value,
+                    });
+                }
+            }
+        }
+
+        // Redirect to the results page
+        window.location.href = `c3.html?score=${score}&incorrectAnswers=${JSON.stringify(incorrectAnswers)}`;
+    });
+</script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>

@@ -1,0 +1,138 @@
+/* إعادة تحديد قواعد النمط لجعل الصفحة متناسقة */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* تعديل على التصميم العام للصفحة */
+.container {
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+/* تحسين تصميم العناصر في القسم */
+section {
+    max-width: 100%;
+    margin: 20px 0;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+ol {
+    color: #333;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #000;
+}
+
+/* تصميم الخلفية والصورة */
+.hero {
+  
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    background :url(./img/bg-img-1.jpg) no-repeat center center /cover;
+height: 350px;
+}
+
+.hero2 {
+    margin: 10px 0;
+   
+    font-size: 50px;
+}
+.hero3 {
+    margin: 10px 0;
+  
+    font-size: 50px;
+}
+
+/* تحسين تصميم الأزرار في النافبار */
+.navbar-nav a {
+    margin-right: 10px;
+}
+
+/* تصميم صورة التلفون */
+.bac img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    
+}
+
+/* تحسين تصميم القائمة الاجتماعية */
+.face {
+    position: relative;
+    text-align: center;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-whatsapp {
+    margin: 10px;
+}
+#t:hover{
+    border-radius:20px;
+    background-color: #1d1d1c;
+    padding: 12px;
+    color: #ffffff;
+}
+#t1:hover{
+    border-radius:20px;
+    background-color: #1d1d1c;
+
+    padding: 12px;
+    color: #ffffff;
+  
+
+}
+#t2:hover{
+    border-radius:20px;
+    background-color: #1d1d1c;
+
+    padding: 12px;
+    color: #ffffff;
+
+
+}
+.face{
+
+
+    padding-top: 1cm;
+    padding-bottom: 2cm; 
+    background-color:white ;
+     border: 0.05cm rgb(164, 157, 157) solid;
+}
+
+.bac1{
+    background :url(img/shutterstock_1738989611.webp) no-repeat center center /cover;
+    height: 550px;
+    
+    }
+
+    .col{
+
+   
+        transform: scale(0.65);
+        position:  absolute;
+     
+      
+}
+
+

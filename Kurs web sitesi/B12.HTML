@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>renkler</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .question-container {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .options {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .option {
+            padding: 10px 20px;
+            background-color: #f1a604;
+            color: #050505;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+
+        .quiz-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            background-color: #0ceb56;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+        #vid{
+
+width: 490px; 
+height: 300px;
+margin-left: -70px;
+
+}
+h2 {
+            margin-bottom: 20px;
+        }
+
+        form {
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        #s1{
+
+            margin-left: 300px;
+            margin-top: 75px;
+           
+        }
+        #s2{
+
+margin-left: 700px;
+margin-top: -527px;
+}
+h3{
+
+ margin: 10px;
+}
+#submi{
+    margin-left: 300px;
+    background-color: #0ceb56;
+    width: 210px;
+    height: 65px;
+
+}
+  </style>
+   
+</head>
+<body>
+
+
+
+    <nav   class="navbar navbar-expand-md navbar-light bg-light ">
+        <div    class="container">
+            <a class="navbar-brand" href="#">
+
+              <img  style="border-radius: 100px;width: 100px;height: 100px;"  src="./img/logo4.png" alt="">
+              <span class="logo-test"> <STrong>ENGLİSH SCHOOL</STrong></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto" >
+              
+              <a class="nav-link  active"id="t2" href="SECIM3.html">GERİ DÖN</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    
+      <H4><strong>RESİMLERİN ALTINA DUYGULARI SEÇİNİZ</strong></H4>
+      <div class="question-container">
+        <h2>Doğru Cevabı Seç:</h2>
+        <img src="img/s1.jpg" alt="">
+        <div class="options">
+            <button class="option" onclick="checkAnswer('A', 1)">Lion </button>
+            <button class="option" onclick="checkAnswer('B', 1)"> Tiger</button>
+            <button class="option" onclick="checkAnswer('C', 1)">Elephant</button>
+            <button class="option" onclick="checkAnswer('D', 1)">Giraffe</button>
+        </div>
+    </div>
+
+    <!-- سؤال 2 -->
+    <div class="question-container">
+        <h2>Doğru Cevabı Seç:</h2>
+        <img src="img/S2.jpg" alt="">
+        <div class="options">
+            <button class="option" onclick="checkAnswer('A', 2)">Bird </button>
+            <button class="option" onclick="checkAnswer('B', 2)">Dog</button>
+            <button class="option" onclick="checkAnswer('C', 2)">Elephant </button>
+            <button class="option" onclick="checkAnswer('D', 2)">Tiger</button>
+        </div>
+    </div>
+    <div class="question-container">
+        <h2>Doğru Cevabı Seç:</h2>
+        <img src="img/S3.jpg" alt="">
+        <div class="options">
+            <button class="option" onclick="checkAnswer('A', 3)">Bird </button>
+            <button class="option" onclick="checkAnswer('B',3)"> Elephant</button>
+            <button class="option" onclick="checkAnswer('C', 3)">Cat </button>
+            <button class="option" onclick="checkAnswer('D', 3)">Giraffe</button>
+        </div>
+    </div>
+    <div class="question-container">
+        <h2>Doğru Cevabı Seç:</h2>
+        <img src="img/s4.jpg" alt="">
+        <div class="options">
+            <button class="option" onclick="checkAnswer('A', 4)">Lion </button>
+            <button class="option" onclick="checkAnswer('B', 4)"> Elephant</button>
+            <button class="option" onclick="checkAnswer('C', 4)">Cat</button>
+            <button class="option" onclick="checkAnswer('D', 4)">Tiger</button>
+        </div>
+    </div>
+    <div class="question-container">
+        <h2>Doğru Cevabı Seç:</h2>
+        <img src="img/s5.jpg" alt="">
+        <div class="options">
+            <button class="option" onclick="checkAnswer('A', 5)">Elephant </button>
+            <button class="option" onclick="checkAnswer('B', 5)"> Dog</button>
+            <button class="option" onclick="checkAnswer('C', 5)">Giraffe </button>
+            <button class="option" onclick="checkAnswer('D', 5)">Bird</button>
+        </div>
+    </div>
+
+
+    <!-- يمكنك استمرار هذا النمط للأسئلة الباقية -->
+
+    <script>
+        function checkAnswer(selectedOption, questionNumber) {
+            // يمكنك هنا إضافة المنطق اللازم لفحص الإجابة
+            // على سبيل المثال، يمكنك استخدام if-else للتحقق من الإجابة الصحيحة
+            // وإظهار رسالة للمستخدم بناءً على الإجابة الصحيحة أو الخاطئة
+            if (selectedOption === 'A'&& questionNumber==1) {
+                alert("  Doğru cevab " );
+            } 
+            else  if (selectedOption === 'B'&& questionNumber==2) {
+                alert("   Doğru cevab "  );
+            }
+            else  if (selectedOption === 'C'&& questionNumber==3) {
+                alert("   Doğru cevab ");
+            }
+            else  if (selectedOption === 'D'&& questionNumber==4) {
+                alert("   Doğru cevab  " );
+            }
+            else  if (selectedOption === 'A'&& questionNumber==5) {
+                alert("   Doğru cevab " );
+            }
+            else {
+                alert("   Yalnış cevab " );
+            }
+        }
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
